@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CuidarBem - Cuidadores de Idosos Profissionais</title>
+    <meta name="description" content="Serviços especializados de cuidadores de idosos com profissionais qualificados em São Paulo">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Cabeçalho da Página -->
+    <header class="cabecalho">
+        <div class="container">
+            <div class="cabecalho-conteudo">
+                <div class="logo">
+                 <img src="imagens/cuidar logo.jpg" alt="CuidarBem Logo" class="logo-imagem">
+                </div>
+                <nav class="navegacao">
+                    <a href="#inicio" class="link-navegacao">Início</a>
+                    <a href="#servicos" class="link-navegacao">Serviços</a>
+                    <a href="#equipe" class="link-navegacao">Equipe</a>
+                    <a href="#depoimentos" class="link-navegacao">Depoimentos</a>
+                    <a href="#contato" class="link-navegacao">Contato</a>
+                </nav>
+                <button class="botao-cabecalho" id="botaoLigar">
+                    <svg class="icone-botao" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                    </svg>
+                    Ligar Agora
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Seção Principal (Hero) -->
+    <section id="inicio" class="secao-hero">
+        <div class="container">
+            <div class="hero-conteudo">
+                <div class="hero-texto">
+                    <h1 class="hero-titulo">Cuidado profissional e carinhoso para seus entes queridos</h1>
+                    <p class="hero-subtitulo">Oferecemos serviços especializados de cuidadores de idosos, com profissionais qualificados e dedicados ao bem-estar de sua família.</p>
+                </div>
+                <div class="hero-imagem">
+                    <img 
+                        src="imagens/mulher segurando mão de idosa.jpeg" 
+                        alt="Mãos de cuidador e idoso se segurando demonstrando carinho e cuidado" 
+                        class="imagem-principal"
+                        
+                    />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Serviços -->
+    <section id="servicos" class="secao-servicos">
+        <div class="container">
+            <div class="cabecalho-secao">
+                <h2 class="titulo-secao">Nossos Serviços</h2>
+                <p class="subtitulo-secao">Oferecemos uma ampla gama de serviços personalizados para atender às necessidades específicas de cada idoso</p>
+            </div>
+            
+            <!-- Imagem Destacada dos Serviços -->
+            <div class="destaque-servicos">
+                <img 
+                    src="imagens/mulher com senhora acamada.jpeg" 
+                    alt="Enfermeira profissional cuidando carinhosamente de idosa no leito" 
+                    class="imagem-destaque"
+                    
+                />
+                <div class="overlay-texto">
+                    <p>Cuidados médicos especializados 24 horas por dia</p>
+                </div>
+            </div>
+            
+            <div class="grade-servicos">
+                <div class="cartao-servico">
+                    <div class="icone-servico azul">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12,6 12,12 16,14"/>
+                        </svg>
+                    </div>
+                    <h3 class="titulo-servico">Cuidado 24 horas</h3>
+                    <p class="descricao-servico">Acompanhamento contínuo com profissionais especializados, garantindo segurança e conforto durante todo o dia e noite.</p>
+                </div>
+
+                <div class="cartao-servico">
+                    <div class="icone-servico verde">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <h3 class="titulo-servico">Cuidados Médicos</h3>
+                    <p class="descricao-servico">Administração de medicamentos, monitoramento de sinais vitais e acompanhamento em consultas médicas.</p>
+                </div>
+
+                <div class="cartao-servico">
+                    <div class="icone-servico roxo">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                        </svg>
+                    </div>
+                    <h3 class="titulo-servico">Companhia e Bem-estar</h3>
+                    <p class="descricao-servico">Atividades recreativas, conversas, passeios e estímulo à socialização para manter o bem-estar emocional.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção da Equipe -->
+    <section id="equipe" class="secao-equipe">
+        <div class="container">
+            <div class="cabecalho-secao">
+                <h2 class="titulo-secao">Nossa Equipe</h2>
+                <p class="subtitulo-secao">Profissionais qualificados e experientes, selecionados com cuidado para oferecer o melhor atendimento</p>
+            </div>
+            
+            <!-- Imagem destacada da equipe em ação -->
+            <div class="destaque-equipe">
+                <div class="imagem-destaque-container">
+                    <img 
+                        src="imagens/mulher ao lado de idosa.jpeg" 
+                        alt="Cuidadora profissional conversando carinhosamente com idosa" 
+                        class="imagem-equipe-destaque"
+                        
+                    />
+                    <div class="overlay-equipe">
+                        <p class="texto-overlay">Nossos cuidadores proporcionam companhia e cuidado personalizado</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="grade-equipe">
+                <div class="cartao-equipe">
+                    <div class="icone-equipe azul">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                    </div>
+                    <h3 class="titulo-equipe">Enfermeiros Especializados</h3>
+                    <p class="descricao-equipe">Profissionais com formação em enfermagem e especialização em geriatria</p>
+                    <div class="badges-equipe">
+                        <span class="badge">CRE Ativo</span>
+                        <span class="badge">Geriatria</span>
+                        <span class="badge">Primeiros Socorros</span>
+                    </div>
+                </div>
+
+                <div class="cartao-equipe">
+                    <div class="icone-equipe verde">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                        </svg>
+                    </div>
+                    <h3 class="titulo-equipe">Cuidadores Certificados</h3>
+                    <p class="descricao-equipe">Cuidadores com certificação e treinamento específico para idosos</p>
+                    <div class="badges-equipe">
+                        <span class="badge">Certificado</span>
+                        <span class="badge">Experiência</span>
+                        <span class="badge">Treinamento</span>
+                    </div>
+                </div>
+
+                <div class="cartao-equipe">
+                    <div class="icone-equipe roxo">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <h3 class="titulo-equipe">Suporte 24/7</h3>
+                    <p class="descricao-equipe">Equipe de supervisão disponível 24 horas para emergências</p>
+                    <div class="badges-equipe">
+                        <span class="badge">24h</span>
+                        <span class="badge">Emergência</span>
+                        <span class="badge">Suporte</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Depoimentos -->
+    <section id="depoimentos" class="secao-depoimentos">
+        <div class="container">
+            <div class="cabecalho-secao">
+                <h2 class="titulo-secao">Depoimentos</h2>
+                <p class="subtitulo-secao">Veja o que as famílias dizem sobre nossos serviços</p>
+            </div>
+            
+            <!-- Imagem de destaque dos depoimentos -->
+            <div class="destaque-depoimentos">
+                <img 
+                    src="imagens/mulher e idoso.jpeg" 
+                    alt="Idoso sorrindo feliz com cuidadora demonstrando satisfação com o atendimento" 
+                    class="imagem-depoimento-destaque"
+                    
+                />
+                <div class="overlay-depoimento">
+                    <p>"A alegria e satisfação dos nossos pacientes é nossa maior recompensa"</p>
+                </div>
+            </div>
+            
+            <div class="grade-depoimentos">
+                <div class="cartao-depoimento">
+                    <div class="estrelas">
+                        <svg class="estrela" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                        <svg class="estrela" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                        <svg class="estrela" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                        <svg class="estrela" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                        <svg class="estrela" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <p class="texto-depoimento">"A equipe da CuidarBem transformou a vida da minha mãe. Ela está mais feliz e segura. Recomendo de coração!"</p>
+                    <p class="autor-depoimento">- Maria Silva, filha</p>
+                </div>
+
+                <div class="cartao-depoimento">
+                    <div class="estrelas">
+                        <svg class="estrela" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                        <svg class="estrela" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                        <svg class="estrela" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                        <svg class="estrela" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                        <svg class="estrela" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <p class="texto-depoimento">"Profissionais extremamente qualificados e carinhosos. Meu pai se sente em casa com os cuidadores."</p>
+                    <p class="autor-depoimento">- João Santos, filho</p>
+                </div>
+
+                <div class="cartao-depoimento">
+                    <div class="estrelas">
+                        <svg class="estrela" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                        <svg class="estrela" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                        <svg class="estrela" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                        <svg class="estrela" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                        <svg class="estrela" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <p class="texto-depoimento">"Serviço excepcional! A família toda ficou mais tranquila sabendo que nossa avó está bem cuidada."</p>
+                    <p class="autor-depoimento">- Ana Costa, neta</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contato" class="secao-contato">
+        <div class="container">
+            <div class="cabecalho-secao">
+                <h2 class="titulo-secao">Entre em Contato</h2>
+                <p class="subtitulo-secao">Estamos prontos para ajudar. Entre em contato conosco para mais informações ou para agendar uma consulta</p>
+            </div>
+            
+            <div class="grade-contato">
+                <div class="cartao-contato" data-tipo="telefone">
+                    <div class="icone-contato">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                    </div>
+                    <h3 class="titulo-contato">Telefone</h3>
+                    <p class="subtitulo-contato">Ligue para nós</p>
+                    <p class="info-contato">(13) 98231-5658</p>
+                    <p class="nota-contato">24 horas por dia</p>
+                </div>
+
+                <div class="cartao-contato" data-tipo="email">
+                    <div class="icone-contato">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                    </div>
+                    <h3 class="titulo-contato">E-mail</h3>
+                    <p class="subtitulo-contato">Envie uma mensagem</p>
+                    <p class="info-contato">contato@cuidarbem.com</p>
+                    <p class="nota-contato">Respondemos em 24h</p>
+                </div>
+
+               <div class="cartao-contato" data-tipo="localizacao">
+    <div class="icone-contato">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+            <circle cx="12" cy="10" r="3"/>
+        </svg>
+    </div>
+    <h3 class="titulo-contato">Locais que atendemos</h3>
+    <p class="subtitulo-contato">Atendimento presencial nas cidades:</p>
+    <ul class="info-contato" style="list-style: disc; margin-left: 1.2em; text-align: left;">
+        <li>Santos</li>
+        <li>São Vicente</li>
+        <li>Praia Grande (PG)</li>
+        <li>Guarujá</li>
+        <li>Cubatão</li>
+    </ul>
+    <p class="nota-contato">Entre em contato para outras regiões</p>
+</div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <div class="container">
+            <div class="rodape-conteudo">
+                <div class="secao-rodape">
+                    <div class="logo-rodape">
+                        <img 
+                            src="imagens/cuidar logo.jpg" 
+                            alt="CuidarBem Logo" 
+                            class="logo-rodape-imagem"
+                            
+                        />
+                    </div>
+                    <p class="descricao-rodape">Cuidado profissional e carinhoso para seus entes queridos, com mais de 10 anos de experiência.</p>
+                </div>
+                
+                <div class="secao-rodape">
+                    <h4 class="titulo-rodape">Serviços</h4>
+                    <ul class="links-rodape">
+                        <li>Cuidado 24 horas</li>
+                        <li>Acompanhamento médico</li>
+                        <li>Cuidados domiciliares</li>
+                        <li>Fisioterapia</li>
+                    </ul>
+                </div>
+                
+                <div class="secao-rodape">
+                    <h4 class="titulo-rodape">Contato</h4>
+                    <div class="contato-rodape">
+                        <p>📞 (13) 98231-5658</p>
+                        <p>✉️ contato@cuidarbem.com</p>
+                        <p>📍 São Paulo - SP</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="rodape-inferior">
+                <p>&copy; 2024 CuidarBem. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
