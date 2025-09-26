@@ -594,6 +594,10 @@ body.carregado {
     justify-content: center;
     margin: 0 auto 1rem;
 }
+.numero-info {
+    text-decoration: none;
+    color: white;
+}
 
 .icone-contato svg {
     width: 2rem;
@@ -1030,7 +1034,7 @@ body.carregado {
     }
     
     .logo-rodape-imagem {
-        height: 1.5rem;
+        height: 3rem;
     }
     
     .descricao-rodape {
