@@ -846,6 +846,7 @@ body.carregado {
     }
     .navegacao {
         display: none;
+        margin: 0;
     }
 
 
