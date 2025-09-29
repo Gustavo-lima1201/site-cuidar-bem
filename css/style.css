@@ -36,8 +36,9 @@ body.carregado {
     background: #ffffff;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid #e5e7eb;
-    position: fixed;
-    top: 0;
+    position: relative;
+    
+    top: 64px;
     left: 0;
     right: 0;
     z-index: 1000;
@@ -63,8 +64,9 @@ body.carregado {
 }
 
 .logo-imagem {
-    height: 4rem;
-    width: 5rem;
+    height: 6rem;
+    width: 7rem;
+    margin-bottom: 40px;
 }
 
 .navegacao {
@@ -832,7 +834,7 @@ body.carregado {
         justify-content: center;
     }
     .logo-imagem {
-        height: 4.2rem; /* Logo grande */
+        height: 7rem; /* Logo grande */
         width: auto;
         margin-bottom: 0.2rem;
         display: block;
